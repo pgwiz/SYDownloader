@@ -27,7 +27,12 @@ Grab the latest version from the [**Releases Page**](https://github.com/pgwiz/SY
 
 1.  **Extract the Archive:** Unzip the `Spotify-Downloader-v1.0.7z` file.
 2.  **Run the Application:** Execute `main.exe` from the extracted folder.
-3.  **Ensure `ffmpeg.exe` is present:** The application relies on `ffmpeg.exe` for audio conversion. Make sure it is in the same directory as `main.exe`.
+3.  **For Linux open terminal in the folder then run**
+    ```bash
+    chmod +x * && ./main.exe
+    ```
+    *Even though its exe its compiled with python so it will run*
+4.  **Ensure `ffmpeg.exe` is present:** The application relies on `ffmpeg.exe` for audio conversion. Make sure it is in the same directory as `main.exe`. or u can set it on path
 
 ---
 
@@ -47,15 +52,15 @@ If you prefer to run the application directly from the source code:
 
 2.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
-    cd your-repo
+    git clone https://github.com/pgwiz/SYDownloader.git SYD
+    cd SYD
     ```
 
 3.  **Create a virtual environment and install dependencies:**
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Linux/macOS
-    # venv\Scripts\activate    # On Windows
+    python -m venv .venv
+    source .venv/bin/activate  # On Linux/macOS
+    venv\Scripts\activate      # On Windows
 
     pip install -r requirements.txt
     ```
