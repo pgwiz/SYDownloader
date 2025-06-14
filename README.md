@@ -40,7 +40,7 @@ Grab the latest version from the [**Releases Page**](https://github.com/pgwiz/SY
 
 The application takes a Spotify URL and uses a custom backend API to find the corresponding YouTube video IDs. It then uses the powerful `yt-dlp` library to download and convert the audio into an MP3 file, which is saved to the `spotify_downloads` folder.
 
-For a complete breakdown of all features and setup instructions, please view the [**Full Documentation**](spotify.cyring.store).
+For a complete breakdown of all features and setup instructions, please view the [**Full Documentation**](https://spotify.cyring.store).
 
 ## Building from Source
 
